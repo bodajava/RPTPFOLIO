@@ -79,6 +79,21 @@ export const servicesData = [
 ];
 export const projects = [
   {
+    id: 9,
+    name: "Golden Grain Global",
+    description:
+      "A premium corporate import/export and global agricultural partnerships platform. Offers a sophisticated, responsive showcase for international food sourcing, bulk packing, and global distribution.",
+    href: "https://www.goldengrainglobal.com/",
+    image: "/assets/projects/golden-grain.png",
+    bgImage: "/assets/backgrounds/map.jpg",
+    frameworks: [
+      { id: 1, name: "React" },
+      { id: 2, name: "Tailwind CSS" },
+      { id: 3, name: "Responsive Slideshow" },
+      { id: 4, name: "Global Sourcing" },
+    ],
+  },
+  {
     id: 7,
     name: "Grosha | Premium Exports",
     description:
