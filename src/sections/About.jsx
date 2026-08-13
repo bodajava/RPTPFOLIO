@@ -5,16 +5,12 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
 const About = () => {
-  const text = `Passionate about scalable architectures.
-    I build clean modular APIs, secure databases,
-    and highly optimized, pixel-perfect user interfaces.`;
-  const aboutText = `Obsessed with building fast, secure, and intuitive web systems—from robust Express & NestJS server APIs to dynamic React components. My focus is on delivering engaging, accessible, and highly optimized full-stack software experiences.
-  My Technical Arsenal:
-🚀 Backend & APIs: Node.js, Express, NestJS, WebSockets (Socket.io), RESTful APIs
-🛡️ Core Logic: Authentication & Authorization, modular routing structures, image uploads (Multer)
-⚡️ Frontend Ecosystem: HTML5, CSS3, JavaScript (ES6+), React.js, Next.js
-🎨 Styling & Animations: Tailwind CSS, Bootstrap, GSAP, Framer Motion
-🔧 Tools & Databases: Git, Vite, NPM/Yarn, SQL, MongoDB, PostgreSQL`;
+  const text = `Engineering depth with a designer's eye.
+    I care about measurable performance, maintainable systems,
+    accessible motion, and products people enjoy using.`;
+  const aboutText = `I'm Abdelrahman Nounir, a frontend-focused full-stack engineer based in Giza, Egypt. I build production-ready digital products for businesses—from bilingual marketing platforms and conversion flows to e-commerce systems and real-time APIs.
+My strongest work combines React, Next.js, TypeScript, GSAP and thoughtful UI engineering. When a product needs deeper infrastructure, I work across Node.js, NestJS, PostgreSQL, MongoDB, authentication, WebSockets and testing.
+I am currently available for freelance collaborations and full-time frontend or full-stack opportunities.`;
   const imgRef = useRef(null);
   useGSAP(() => {
     gsap.to("#about", {
@@ -42,7 +38,7 @@ const About = () => {
   return (
     <section id="about" className="min-h-screen bg-black rounded-b-4xl">
       <AnimatedHeaderSection
-        subTitle={"Cod with purpose, Built to scale"}
+        subTitle={"Code with purpose, built to scale"}
         title={"About"}
         text={text}
         textColor={"text-white"}
@@ -52,7 +48,7 @@ const About = () => {
         <img
           ref={imgRef}
           src="images/0301CF5D-6D7F-4B2C-A151-3E7E8F24999A_1_105_c.jpeg"
-          alt="ABDELRHMAN"
+          alt="Abdelrahman Nounir, frontend engineer"
           className="w-md rounded-3xl"
         />
         <AnimatedTextLines text={aboutText} className={"w-full"} />

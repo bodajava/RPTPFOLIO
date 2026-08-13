@@ -5,14 +5,14 @@ import { useMediaQuery } from "react-responsive";
 import AnimatedHeaderSection from "../components/AnimatedHeaderSection";
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
-  const text = `I build robust backend systems, secure APIs,
-and craft pixel-perfect, responsive user interfaces
-using modern Full-Stack technologies.`;
+  const text = `I turn ambitious ideas into fast, accessible products—
+from expressive interfaces and motion systems
+to secure APIs and production-ready platforms.`;
   return (
     <section id="home" className="flex flex-col justify-end min-h-screen">
       <AnimatedHeaderSection
-        subTitle={"Full-Stack Developer"}
-        title={"ABDELRHMAN"}
+        subTitle={"Frontend Engineer · Full-Stack Capable · Open to Work"}
+        title={"ABDELRAHMAN"}
         text={text}
         textColor={"text-black"}
       />
